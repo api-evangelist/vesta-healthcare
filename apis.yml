@@ -1,8 +1,24 @@
 aid: vesta-healthcare
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vesta-healthcare.png
 name: Vesta Healthcare
-description: 'Vesta Healthcare is a company surfaced as a portfolio company of lux-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Vesta Healthcare is a clinical and technology services organization for high-need, frail
+  seniors receiving home-based care. It connects caregiver insights to the broader care team, delivering
+  24/7 telehealth support, remote patient monitoring, and chronic care management. Vesta partners with
+  home care agencies, health plans, and providers to run value-based population health programs that
+  emphasize clinical quality and personalized engagement, with services covered through Medicare,
+  Medicare Supplemental, and many Medicare Advantage plans. The company (formerly HT Health) is backed
+  by Lux Capital. No public developer/API surface was found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/vesta-healthcare/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Home Care
+- Telehealth
+- Caregivers
+- Remote Patient Monitoring
+- Chronic Care Management
+- Medicare
+- Value-Based Care
+- Seniors
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vesta-healthcare-domain-security.yml
 - type: Website
   url: https://www.vestahealthcare.com
+- type: PrivacyPolicy
+  url: https://vestahealthcare.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/vestahealthcare
+- type: Careers
+  url: https://boards.greenhouse.io/vestahealthcare
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
